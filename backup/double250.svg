@@ -10,7 +10,7 @@
 	</style>
 
 	<!-- background, comment out when printing -->
-	<!-- <rect width="100%" height="100%" fill="#6d6d6f" /> -->
+	<rect width="100%" height="100%" fill="#6d6d6f" />
 
 	<!-- border -->
 	<rect x="1" y="1" rx="3" ry="3" width="83" height="109" stroke="#BC0" fill="transparent" stroke-width="1"/>
