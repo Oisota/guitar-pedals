@@ -5,9 +5,9 @@ from .dual250 import Dual250SVG
 def main():
     # generate svg
     items = [
-        (DOD250SVG, './build/dod250.svg')
-        (DoubleMuffSVG, './build/doublemuff.svg')
-        (Dual250SVG, './build/dual250.svg')
+        (DOD250SVG, './build/dod250.svg'),
+        (DoubleMuffSVG, './build/doublemuff.svg'),
+        (Dual250SVG, './build/dual250.svg'),
     ]
 
     # write to file
