@@ -52,11 +52,11 @@ class DoubleMuffSVG(SVGTemplate):
         doc.asis(self.border())
 
         # in/out/power
-        with tag('text', ('font-size', "4"), ('text-anchor', "middle"), x="30", y="5", fill=PRIMARY_COLOR):
-            text('9V')
-
-        stag('polygon', points="15,5 13,2 11,5", style=f"fill: {PRIMARY_COLOR};")
-        stag('polygon', points="49,2 47,5, 45, 2", style=f"fill: {PRIMARY_COLOR};")
+        # with tag('text', ('font-size', "4"), ('text-anchor', "middle"), x="30", y="5", fill=PRIMARY_COLOR):
+        #     text('9V')
+        #
+        # stag('polygon', points="15,5 13,2 11,5", style=f"fill: {PRIMARY_COLOR};")
+        # stag('polygon', points="49,2 47,5, 45, 2", style=f"fill: {PRIMARY_COLOR};")
 
         # logo
         stag('rect', ('stroke-width', 1), x='1.5', y='64', width='57', height='25', fill='#222222')

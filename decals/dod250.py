@@ -1,4 +1,4 @@
-"""Double Muff Clone"""
+"""DOD 250 Clone"""
 
 from yattag import Doc
 
